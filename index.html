@@ -17,6 +17,7 @@
         value="Générateur de MDP"
         readonly
       />
+
       <div class="range-container">
         <input
           type="range"
@@ -28,6 +29,7 @@
         />
         <input type="text" id="display-password-length" value="8" readonly>
       </div>
+
       <div class="checkbox-container">
         <input type="checkbox" id="lowercase" checked>
         <label for="lowercase">a-z</label>
@@ -38,6 +40,9 @@
         <input type="checkbox" id="symbols">
         <label for="symbols">!-?</label>
       </div>
+
+      <button id="generateButton">Générer mot de passe</button>
+
     </div>
 
     <script src="./script.js" async defer></script>
